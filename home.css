@@ -35,6 +35,10 @@ body {
     color: #94d2bd;
 }
 
+.navbar-right{
+    display: flex;
+}
+
 /* Main Section */
 .main-section {
     text-align: center;
