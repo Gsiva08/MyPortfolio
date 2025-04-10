@@ -83,6 +83,10 @@ body {
     color: #555;
 }
 
+.navbar-right{
+    display: flex;
+}
+
 /* Footer */
 footer {
     background-color: #003745;
