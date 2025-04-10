@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005f73;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar-right a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navbar-right a:hover {
+    color: #94d2bd;
+}
+
+/* Education Section */
+.education-section {
+    padding: 20px;
+    background-color: #e7f2f8;
+    text-align: center;
+}
+
+.education-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #beece1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.card .left {
+    text-align: left;
+}
+
+.card .right {
+    text-align: right;
+}
+
+.card .percentage {
+    font-size: 24px;
+    font-weight: bold;
+    color: #005f73;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.card .percentage:hover {
+    transform: scale(1.2);
+    color: #106e4f;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #003745;
+    color: #fff;
+    text-align: left;
+    padding: 20px 10px;
+}
+
+footer a {
+    color: #94d2bd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
